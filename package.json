@@ -1,26 +1,19 @@
 {
-  "name": "portfolio-generator",
+  "name": "project",
   "version": "1.0.0",
-  "description": "generates portfolio",
+  "description": "",
   "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/sample.js",
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SalvadorBanuelos424/Portfolio-Generator.git"
-  },
-  "keywords": [
-    "Portfolio",
-    "Generator"
-  ],
-  "author": "Sal",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SalvadorBanuelos424/Portfolio-Generator/issues"
-  },
-  "homepage": "https://github.com/SalvadorBanuelos424/Portfolio-Generator#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.2"
+    "inquirer": "^7.0.3"
   }
 }
